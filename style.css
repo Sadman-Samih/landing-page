@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+
+}
+
+.header {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-left {
+    background-color: #1f2937;
+    color: white;
+    text-align: left;
+}
+
+.Information {
+    background-color: aliceblue;
+    color: black;
+}
+
+.LMB {
+    background-color: #3882f6;
+    color: white;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: white;
+}
+.Quote-section {
+    background-color: #e5e7eb;
+    color: black;
+}
+
+.cta-section {
+    background-color: #3882f6;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #ffffff;
+}
