@@ -14,17 +14,25 @@
 .logo {
     font-size: 40px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .hero-left {
     background-color: #1f2937;
     color: white;
     text-align: left;
+    padding: 2em;
+}
+
+.hero-para {
+    padding: 11px;
 }
 
 .Information {
     background-color: aliceblue;
     color: black;
+    text-align: center;
+    padding: 18px;
 }
 
 .LMB {
@@ -39,14 +47,41 @@
 .Quote-section {
     background-color: #e5e7eb;
     color: black;
+    padding: 16px;
+    margin: 16px;
 }
 
 .cta-section {
     background-color: #3882f6;
+    padding: 16px;
+    margin: 16px;
     color: white;
 }
+
+.cta-button {
+    padding: 16px;
+    margin: 11px;
+}
+
+.Cards {
+    padding: 12px;
+    margin: 12px;
+}
+
+
+
+
+
 
 .footer {
     background-color: #1f2937;
     color: #ffffff;
+}
+
+.Infocard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
 }
