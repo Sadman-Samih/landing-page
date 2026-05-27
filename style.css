@@ -27,6 +27,8 @@
     max-width: 350px;
     height: 300px;
     object-fit: cover;
+    border-radius: 12px;
+    border: #3882f6 5px solid;
 }
 
 .hero-para {
@@ -87,13 +89,9 @@
     font-weight: bolder;
     color: white;
     border: 2px white solid;
-    cursor: pointer;
+    cursor: pointer
 }
 
-.cta-button {
-    background-color: #3882f6;
-    color: white;
-}
 .Quote-section {
     background-color: #e5e7eb;
     color: black;
@@ -134,7 +132,11 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    white-space: nowrap; /* Prevents the text inside the button from wrapping */
+    white-space: nowrap;
+}
+
+.cta-button:hover {
+    text-decoration: underline;
 }
 
 .Cards {
@@ -176,3 +178,8 @@
     margin: 0 auto;
 }
 
+.cardImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
