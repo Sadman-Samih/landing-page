@@ -92,6 +92,10 @@
     cursor: pointer
 }
 
+.LMB:hover {
+    text-decoration: underline;
+}
+
 .Quote-section {
     background-color: #e5e7eb;
     color: black;
