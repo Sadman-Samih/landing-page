@@ -37,7 +37,12 @@
 
 .LMB {
     background-color: #3882f6;
+    border-radius: 13px;
+    padding: 16px;
+    font-weight: bolder;
     color: white;
+    border: 2px white solid;
+    cursor: pointer;
 }
 
 .cta-button {
@@ -49,29 +54,48 @@
     color: black;
     padding: 16px;
     margin: 16px;
+    border-radius: 15px;
 }
 
+/* Centers the entire blue banner block on your webpage */
 .cta-section {
-    background-color: #3882f6;
-    padding: 16px;
-    margin: 16px;
-    color: white;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
 }
 
+/* This targets the blue box container */
+.cta-banner {
+    background-color: #3882f6; /* Blue background */
+    color: white;
+    width: 100%;
+    max-width: 950px;
+    padding: 40px 60px;
+    border-radius: 8px;
+
+    /* THE MOVEMENT MAGIC */
+    display: flex;                 /* Makes children layout horizontally */
+    justify-content: space-between; /* Pushes text group left, button right */
+    align-items: center;           /* Centers them vertically so they line up nicely */
+}
+
+/* Keep your transparent button styling */
 .cta-button {
-    padding: 16px;
-    margin: 11px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap; /* Prevents the text inside the button from wrapping */
 }
 
 .Cards {
     padding: 12px;
     margin: 12px;
 }
-
-
-
-
-
 
 .footer {
     background-color: #1f2937;
@@ -93,3 +117,4 @@
     border-radius: 12px;
     margin-bottom: 12px;
 }
+
