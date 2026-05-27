@@ -151,6 +151,11 @@
 .footer {
     background-color: #1f2937;
     color: #ffffff;
+    padding: 16px 20px;
+}
+
+.footer-text {
+    text-align: center;
 }
 
 .Infocard {
